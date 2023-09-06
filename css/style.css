@@ -7,6 +7,8 @@
 
 img{
     width:400px;
+    position: relative;
+    
 }
 
 
@@ -17,10 +19,10 @@ a{
 /* HEADER */
 .nav-header{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     background-color: orange;
-    align-items: center;
     padding: 10px 0px;
+    text-align: center;
 }
 
 .logo{
@@ -32,15 +34,16 @@ a{
 .container{
     width: 1300px;
     display: flex;
-    
-    
 }
 
 .col-4{
     flex-basis: calc(100% / 3);
-    text-align: center;
+    
 }
 
+.col-6{
+    flex-basis: calc(100% / 2);
+}
 
 /* MAIN */
 
@@ -51,6 +54,18 @@ main{
     flex-wrap: wrap;
 }
 
+
+
 .container_bot{
     padding-top: 100px;
+}
+
+
+/* FOOTER */
+
+footer{
+    display: flex;
+    justify-content: center;
+    background-color: gray;
+    padding: 30px;
 }
