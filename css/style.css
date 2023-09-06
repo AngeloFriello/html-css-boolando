@@ -7,13 +7,12 @@
 
 img{
     width:433px;
-    
-    
 }
-
 
 a{
     text-decoration: none;
+    color: white;
+    font-weight: 400;
 }
 
 /* HEADER */
@@ -22,7 +21,6 @@ a{
     justify-content: center;
     background-color: orange;
     padding: 10px 0px;
-    text-align: center;
 }
 
 .logo{
@@ -47,6 +45,19 @@ a{
 .col-6{
     flex-basis: calc(100% / 2);
 }
+
+.col-12{
+    flex-basis: calc(100%)
+
+}
+
+header .col-12{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
 
 /* MAIN */
 
@@ -115,4 +126,10 @@ footer{
     justify-content: center;
     background-color: gray;
     padding: 30px;
+    margin-top: 100px;
+}
+
+footer .col-12{
+    display: flex;
+    justify-content: space-between;
 }
