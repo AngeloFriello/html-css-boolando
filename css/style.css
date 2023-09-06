@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+a{
+    text-decoration: none;
+}
+
+/* HEADER */
+.nav-header{
+    display: flex;
+    justify-content: space-between;
+    background-color: orange;
+    align-items: center;
+    padding: 10px 0px;
+}
+
+.logo{
+    width: 200px
+    ;
+}
+
+
+
+
+.col-4{
+    flex-basis: calc(100% / 3);
+    text-align: center;
+}
