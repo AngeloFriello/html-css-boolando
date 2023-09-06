@@ -5,6 +5,11 @@
 
 }
 
+img{
+    width:400px;
+}
+
+
 a{
     text-decoration: none;
 }
@@ -24,9 +29,28 @@ a{
 }
 
 
-
+.container{
+    width: 1300px;
+    display: flex;
+    
+    
+}
 
 .col-4{
     flex-basis: calc(100% / 3);
     text-align: center;
+}
+
+
+/* MAIN */
+
+main{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    flex-wrap: wrap;
+}
+
+.container_bot{
+    padding-top: 100px;
 }
