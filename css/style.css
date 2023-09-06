@@ -98,8 +98,15 @@ main{
 }
 
 
-.col-4 :hover 
+.col-4:hover .img-top{
+    opacity: 0;
+    position: absolute;
+}
 
+.col-4:hover .img-back{
+    opacity: 1;
+    position: static;
+}
 
 /* FOOTER */
 
